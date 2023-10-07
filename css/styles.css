@@ -148,7 +148,9 @@ footer{
 .footer-item{
     display: flex;
     width: 7vw;
-    height: 7vw;
+    min-width: fit-content;
+    height:auto;
+    min-height: 7vw;
     margin: 0% 2%;
     align-items: center;
     justify-content: center;
