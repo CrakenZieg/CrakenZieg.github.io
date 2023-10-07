@@ -1,0 +1,162 @@
+/* scroll */
+* {
+	scrollbar-color: #888 #f1f1f1;
+	scrollbar-gutter: 10px;
+	scrollbar-width: 10px;
+}
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+/* header-nav */
+nav {
+	height: auto;
+	width: 100%;
+}
+#logoNav {
+	min-height: 55px;
+	max-height: 75px;
+	height: 10vh;
+	width: auto;
+}
+
+/* banner */
+.banner {
+	height: 85vh;
+	background-image: url("/assests/ba1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.contenedor-banner {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(35, 35, 35, 0.5);
+	.card,
+	.card-header,
+    .card-footer {
+		background: none;
+		border: none;
+	}
+	> .card {        
+		margin-right: 6%;
+		align-self: center;
+		justify-self: end;
+		float: right;
+		text-align: end;
+		width: 40%;
+        min-width: 350px;
+	}
+}
+
+/* oradores */
+
+.titulo-seccion {
+	margin: 1%;
+	text-align: center;
+	font-size: 0.8em;
+}
+.oradores .card{
+    width: 24vw;
+    min-width: 240px;
+    height: 100%;
+    overflow: hidden;
+    padding:0%;
+    >img{
+        height: 60%;
+        width: 100%;
+        object-fit: cover;
+    }
+    >.card-body{
+        >.card-text{
+            font-size: 0.7em;
+            color:#888;
+            line-height: 1.8em;
+        }
+        >.tags{
+            height: min-content;
+            >a{
+                padding: 0% 1%;
+                margin-bottom: 1%;
+                font-size: x-small;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+/* sobre el evento */
+#SobreEvento{
+ padding-top: 2%;
+ width: 100%;
+}
+#SobreEvento img{
+    border-right: 1px solid lightsteelblue;
+    border-top: 2px solid lightsteelblue;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#texto-evento{
+    width: 100%;
+    height: 100%;
+    padding: 3%;
+    background-color: #555;
+    color:white;
+    font-size: 0.75em;
+    line-height: 1.8em;
+    border-left: 1px solid lightsteelblue;
+    border-top: 2px solid lightsteelblue;
+    >a{
+        font-size: 1.1em;
+        padding: 1%;
+        line-height: 1em;
+    }
+}
+
+/* formulario */
+.titulo-seccion a{
+    text-decoration: underline dotted;
+    color: black;
+}
+#formulario form{
+    color:#888;
+    >button{
+        color:white;
+        font-weight: 500;
+        background-color: rgb(150, 201, 62);
+        width: 100%;
+    }
+}
+.recordatorio{
+    font-size: 0.7em;
+    font-weight: 500;    
+}
+
+/* footer */
+footer{
+    background-color: rgb(28,56,70);
+}
+.footer-item{
+    display: flex;
+    width: 7vw;
+    height: 7vw;
+    margin: 0% 2%;
+    align-items: center;
+    justify-content: center;
+    >a{
+        text-decoration: none;
+        color: white;
+        font-size: 0.9em;
+        font-weight: 500;
+        text-align: center;
+    }
+}
