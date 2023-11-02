@@ -32,7 +32,7 @@ nav {
 /* banner */
 .banner {
 	height: 85vh;
-	background-image: url("/assests/ba1.jpg");
+	background-image: url("/Proyecto/assests/ba1.jpg");
 	background-size: cover;
 	background-position: center;
 }
@@ -129,13 +129,18 @@ nav {
 }
 #formulario form{
     color:#888;
-    >button{
-        color:white;
-        font-weight: 500;
-        background-color: rgb(150, 201, 62);
-        width: 100%;
-    }
 }
+.btn-verde{
+    color:white;
+    font-weight: 500;
+    background-color: rgb(150, 201, 62);
+    width: 100%;
+}
+.btn-verde:hover{
+    color:rgb(150, 201, 62);
+    outline: 2px solid rgb(150, 201, 62);
+}
+
 .recordatorio{
     font-size: 0.7em;
     font-weight: 500;    
@@ -148,9 +153,7 @@ footer{
 .footer-item{
     display: flex;
     width: 7vw;
-    min-width: fit-content;
-    height:auto;
-    min-height: 7vw;
+    height: 7vw;
     margin: 0% 2%;
     align-items: center;
     justify-content: center;
@@ -161,4 +164,28 @@ footer{
         font-weight: 500;
         text-align: center;
     }
+}
+
+/* comprar */
+/* descuentos */
+.formulario-ticket{
+    width:65vw;
+}
+
+.descuento{
+    margin: 1%;
+    > * {
+        pointer-events: none;
+    }
+}
+.descuento:hover{
+    background-color: #F0F0F0;
+}
+
+.total-contenedor{
+    color:#155294;
+    background-color: #CCE5FF;
+    margin: 2% calc(1.5rem * 0.5);
+    padding: 2%;
+    border-radius: 5px;
 }
