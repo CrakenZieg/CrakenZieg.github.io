@@ -32,7 +32,7 @@ nav {
 /* banner */
 .banner {
 	height: 85vh;
-	background-image: url("/Proyecto/assests/ba1.jpg");
+	background-image: url("../assests/ba1.jpg");
 	background-size: cover;
 	background-position: center;
 }
