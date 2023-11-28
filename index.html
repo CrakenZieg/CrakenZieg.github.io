@@ -1,298 +1,1033 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Conf Bs As</title>
+		<meta charset="utf-8" />
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+		<title>Francisco Ziegler</title>
+		<meta content="" name="description" />
+		<meta content="" name="keywords" />
+
+		<!-- Favicons -->
+		<link href="assets/img/favicon.ico" rel="icon" />
+		<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+		<!-- Vendor CSS Files -->
 		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			href="assets/vendor/bootstrap/css/bootstrap.min.css"
 			rel="stylesheet"
-			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-			crossorigin="anonymous"
 		/>
-		<link rel="stylesheet" href="/css/styles.css" />
+		<link
+			href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+			rel="stylesheet"
+		/>
+		<link
+			href="assets/vendor/glightbox/css/glightbox.min.css"
+			rel="stylesheet"
+		/>
+		<link
+			href="assets/vendor/swiper/swiper-bundle.min.css"
+			rel="stylesheet"
+		/>
+
+		<!-- Template Main CSS File -->
+		<link href="assets/css/style.css" rel="stylesheet" />
+
+		<!-- =======================================================
+  * Template Name: DevFolio
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 	</head>
+
 	<body>
-		<header>
-			<nav
-				class="navbar navbar-expand-lg bg-dark bg-gradient p-0"
-				data-bs-theme="dark"
+		<!-- ======= Header ======= -->
+		<header id="header" class="fixed-top">
+			<div
+				class="container d-flex align-items-center justify-content-between"
 			>
-				<div class="container">
-					<a href="index.html" class="navbar-brand">
-						<img
-							src="assests/codoacodo.png"
-							alt="CodoACodo"
-							id="logoNav"
-						/>
-						<span class="h5">Conf Bs As</span>
-					</a>
-					<ul class="navbar-nav align-items-center">
-						<li class="nav-item">
-							<a
-								href="#SobreEvento"
-								class="nav-link active"
-								aria-current="page"
-								>La Conferencia</a
+				<h1 class="logo"><a href="index.html">Inicio</a></h1>
+
+				<nav id="navbar" class="navbar">
+					<ul>
+						<li>
+							<a class="nav-link scrollto active" href="#hero"
+								>Inicio</a
 							>
 						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link">Los Oradores</a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link">El lugar y la fecha</a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link"
-								>Conviértete en orador</a
+						<li>
+							<a class="nav-link scrollto" href="#sobre"
+								>Sobre mi</a
 							>
 						</li>
-						<li class="nav-item">
-							<a href="comprar.html" class="nav-link text-success"
-								>Comprar tickets</a
+						<li>
+							<a class="nav-link scrollto" href="#habilidades"
+								>Habilidades</a
+							>
+						</li>
+						<li>
+							<a class="nav-link scrollto" href="#proyectos"
+								>Proyectos</a
+							>
+						</li>
+						<li>
+							<a class="nav-link scrollto" href="#certificados"
+								>Certificados</a
+							>
+						</li>
+						<li>
+							<a class="nav-link scrollto" href="#contacto"
+								>Contacto</a
 							>
 						</li>
 					</ul>
-				</div>
-			</nav>
+					<i class="bi bi-list mobile-nav-toggle"></i>
+				</nav>
+				<!-- .navbar -->
+			</div>
 		</header>
-		<main>
-			<div class="banner">
-				<div class="contenedor-banner d-grid">
-					<div class="card text-white">
-						<div class="card-header"><h1>Conf Bs As</h1></div>
-						<div class="card-body">
-							Bs As llega por primera vez a Argentina. Un evento
-							para compartir con nuestra comunidad el conocimiento
-							y la experiencia de los expertos que están creando
-							el futuro de Internet. Ven a conocer a miembros del
-							evento, a otros estudiantes de Codo a Codo y los
-							oradores de primer nivel que tenemos para ti. Te
-							esperamos!
-						</div>
-                        <div class="card-footer">
-                            <a class="btn btn-outline-light mx-1" href="#serOrador">
-                                Quiero ser orador
-                            </a>
-                            <a class="btn btn-success mx-1" href="comprar.html">
-                                Comprar tickets
-                            </a>
-                        </div>
+		<!-- End Header -->
+
+		<!-- ======= Hero Section ======= -->
+		<div
+			id="hero"
+			class="hero route bg-image"
+			style="background-image: url(assets/img/hero-bg.jpg)"
+		>
+			<div class="overlay-itro"></div>
+			<div class="hero-content display-table">
+				<div class="table-cell">
+					<div class="container">
+						<!--<p class="display-6 color-d">Hello, world!</p>-->
+						<h1 class="hero-title mb-4">Francisco Ziegler</h1>
+						<p class="hero-subtitle">
+							<span
+								class="typed"
+								data-typed-items="Desarrollador, Freelancer, Angular, Spring, Java"
+							></span>
+						</p>
+						<!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
 					</div>
 				</div>
 			</div>
-			<section class="oradores">
-				<div class="titulo-seccion">
-					<span>CONOCE A LOS</span>
-					<h3>ORADORES</h3>
-				</div>
-				<article>
-					<div class="container">
-						<div
-							class="row row-cols-3 d-flex flex-wrap justify-content-around mx-5"
-						>
-							<div class="col card">
-								<img
-									src="assests/oradores/steve.jpg"
-									class="card-img-top"
-									alt="Steve Jobs"
-								/>
-								<div class="card-body">
-									<div class="tags">
-										<a href="#" class="btn btn-warning"
-											>Javascript</a
-										>
-										<a
-											href="#"
-											class="btn btn-info text-white"
-											>React</a
-										>
-									</div>
-									<h5 class="card-title">Steve Jobs</h5>
-									<p class="card-text">
-										Lorem ipsum dolor sit amet, consectetur
-										adipiscing elit, sed do eiusmod tempor
-										incididunt ut labore et dolore magna
-										aliqua. Ut enim ad minim veniam, quis
-										nostrud exercitation ullamco laboris
-										nisi ut aliquip ex ea commodo consequat!
-									</p>
-								</div>
-							</div>
-							<div class="col card">
-								<img
-									src="assests/oradores/bill.jpg"
-									class="card-img-top"
-									alt="Bill Gates"
-								/>
-								<div class="card-body">
-									<div class="tags">
-										<a href="#" class="btn btn-warning"
-											>Javascript</a
-										>
-										<a
-											href="#"
-											class="btn btn-info text-white"
-											>React</a
-										>
-									</div>
-									<h5 class="card-title">Bill Gates</h5>
-									<p class="card-text">
-										Lorem ipsum dolor sit amet, consectetur
-										adipiscing elit, sed do eiusmod tempor
-										incididunt ut labore et dolore magna
-										aliqua. Ut enim ad minim veniam, quis
-										nostrud exercitation ullamco laboris
-										nisi ut aliquip ex ea commodo consequat!
-									</p>
-								</div>
-							</div>
-							<div class="col card">
-								<img
-									src="assests/oradores/ada.jpeg"
-									class="card-img-top"
-									alt="Ada Lovelace"
-								/>
-								<div class="card-body">
-									<div class="tags">
-										<a href="#" class="btn btn-secondary"
-											>Negocios</a
-										>
-										<a href="#" class="btn btn-danger"
-											>Startups</a
-										>
-									</div>
-									<h5 class="card-title">Ada Lovelace</h5>
-									<p class="card-text">
-										Lorem ipsum dolor sit amet, consectetur
-										adipiscing elit, sed do eiusmod tempor
-										incididunt ut labore et dolore magna
-										aliqua. Ut enim ad minim veniam, quis
-										nostrud exercitation ullamco laboris
-										nisi ut aliquip ex ea commodo consequat!
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</article>
-			</section>
-			<section id="SobreEvento">
-				<div class="container-fluid mx-0 p-0">
-					<div class="row m-0">
-						<div class="col p-0">
-							<img
-								src="assests/ba3.jpg"
-								alt="Obelisco de noche"
-							/>
-						</div>
-						<div class="col p-0">
-							<div id="texto-evento">
-								<h3>Bs As - Octubre</h3>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur
-									adipiscing elit, sed do eiusmod tempor
-									incididunt ut labore et dolore magna aliqua.
-									Ut enim ad minim veniam, quis nostrud
-									exercitation ullamco laboris nisi ut aliquip
-									ex ea commodo consequat. Duis aute irure
-									dolor in reprehenderit in voluptate velit
-									esse cillum dolore eu fugiat nulla pariatur.
-									Excepteur sint occaecat cupidatat non
-									proident, sunt in culpa qui officia deserunt
-									mollit anim id est laborum.
-								</p>
-								<a class="btn btn-outline-light rounded-1">
-									Conocé más
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section id="formulario" id="serOrador">
-				<div class="container w-50">
+		</div>
+		<!-- End Hero Section -->
+
+		<main id="main">
+			<!-- ======= Sobre mi Section ======= -->
+			<section id="sobre" class="about-mf sect-pt4 route">
+				<div class="container">
 					<div class="row">
-						<div class="titulo-seccion">
-							<span>CONVIÉRTETE EN UN</span>
-							<h3>ORADOR</h3>
-							<span
-								>Anótate como orador para dar una
-								<a href="">charla ignite</a>. Cuéntanos de qué
-								quieres hablar!
-							</span>
+						<div class="col-sm-12">
+							<div class="box-shadow-full">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="row">
+											<div class="col-sm-6 col-md-5">
+												<div class="about-img">
+													<img
+														src="assets/img/logo.jpg"
+														class="img-fluid rounded b-shadow-a"
+														alt=""
+													/>
+												</div>
+											</div>
+											<div class="col-sm-6 col-md-7">
+												<div class="about-info">
+													<p>
+														<span class="title-s"
+															>Nombre:
+														</span>
+														<span
+															>Francisco
+															Ziegler</span
+														>
+													</p>
+													<p>
+														<span class="title-s"
+															>Perfil:
+														</span>
+														<span
+															>Desarrollador Full
+															Stack</span
+														>
+													</p>
+													<p>
+														<span class="title-s"
+															>Email:
+														</span>
+														<span
+															>franciscoZiegler@gmail.com</span
+														>
+													</p>
+													<p>
+														<span class="title-s"
+															>GitHub:
+														</span>
+														<span
+															>github.com/CrakenZieg</span
+														>
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="skill-mf">
+											<p class="title-s">Skills</p>
+											<span>HTML</span>
+											<span class="pull-right">80%</span>
+											<div class="progress">
+												<div
+													class="progress-bar"
+													role="progressbar"
+													style="width: 80%"
+													aria-valuenow="80"
+													aria-valuemin="0"
+													aria-valuemax="100"
+												></div>
+											</div>
+											<span>CSS3</span>
+											<span class="pull-right">65%</span>
+											<div class="progress">
+												<div
+													class="progress-bar"
+													role="progressbar"
+													style="width: 65%"
+													aria-valuenow="65"
+													aria-valuemin="0"
+													aria-valuemax="100"
+												></div>
+											</div>
+											<span>JAVA</span>
+											<span class="pull-right">70%</span>
+											<div class="progress">
+												<div
+													class="progress-bar"
+													role="progressbar"
+													style="width: 70%"
+													aria-valuenow="70"
+													aria-valuemin="0"
+													aria-valuemax="100"
+												></div>
+											</div>
+											<span>JAVASCRIPT</span>
+											<span class="pull-right">65%</span>
+											<div class="progress">
+												<div
+													class="progress-bar"
+													role="progressbar"
+													style="width: 65%"
+													aria-valuenow="65"
+													aria-valuemin="0"
+													aria-valuemax="100"
+												></div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="about-me pt-4 pt-md-0">
+											<div class="title-box-2">
+												<h5 class="title-left">
+													Sobre mi
+												</h5>
+											</div>
+											<p class="lead">
+												Como parte de la generación que
+												(casi) nació con una computadora
+												en las manos, es parte de mi
+												vida cotidiana. Desde hace
+												algunos años estoy buscando que
+												también sea mi fuente principal
+												de ingresos.
+											</p>
+											<p class="lead">
+												Soy inquieto y me mantengo
+												aprendiendo cosas nuevas
+												constantemente, desde
+												tecnologías hasta recetas de
+												cocina. Siempre estoy haciendo
+												cursos e intentando implementar
+												funcionalidades nuevas, DevOps
+												es mi próximo objetivo.
+											</p>
+											<p class="lead">
+												El stack sobre el que me he
+												desarrollado es Angular2,
+												Spring, ya sea MVC o Rest, y
+												MySQL como DDBB. También trabajé
+												con herramientas en la nube como
+												Firebase.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-					<form action="">
-						<div class="row my-2">
-							<div class="col">
-								<input
-									type="text"
-									class="form-control p-2"
-									id="nombre"
-									placeholder="Nombre"
-                                    name="nombre"
-								/>
-							</div>
-							<div class="col">
-								<input
-									type="text"
-									class="form-control p-2"
-									id="apellido"
-									placeholder="Apellido"
-                                    name="apellido"
-								/>
-							</div>
-						</div>
-						<div class="row mt-3">
-							<div class="col">
-								<textarea
-									class="form-control p-2"
-									id="texto"
-									rows="3"
-                                    placeholder="Sobre qué quieres hablar?"
-                                    name="texto"
-								></textarea>
-							</div>
-                            <span class="recordatorio">Recuerda incluir un titulo para tu charla</span>
-						</div>
-                        <button class="btn btn-verde my-3">Enviar</button>
-                    </form>
 				</div>
 			</section>
+			<!-- End Sobre mi Section -->
+			<!-- ======= Yo Section ======= -->
+			<div
+				class="testimonials paralax-mf bg-image"
+				style="background-image: url(assets/img/overlay-bg.jpg)"
+			>
+				<div class="overlay-mf"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div
+								class="testimonials-slider swiper"
+								data-aos="fade-up"
+								data-aos-delay="100"
+							>
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="testimonial-box">
+											<div class="author-test">
+												<img
+													src="assets/img/yo1.jpg"
+													alt=""
+													class="rounded-circle b-shadow-a"
+												/>
+											</div>
+											<div class="content-test">
+												<br />
+												<p class="description lead">
+													Mi trayectoria comenzó en
+													las ciencias exactas, me
+													gusta estudiar, me gusta
+													aprender, disfruto dominar
+													nuevas habilidades y
+													tecnologías, soy curioso e
+													inquisitivo. No me agradan
+													las explicaciones a medias,
+													pero me adapto cuando los
+													tiempos apremian y es más
+													importante que algo funcione
+													rápido.
+												</p>
+											</div>
+										</div>
+									</div>
+									<!-- End testimonial item -->
+									<div class="swiper-slide">
+										<div class="testimonial-box">
+											<div class="author-test">
+												<img
+													src="assets/img/yo4.jpg"
+													alt=""
+													class="rounded-circle b-shadow-a"
+												/>
+											</div>
+											<div class="content-test">
+												<br />
+												<p class="description lead">
+													Puedo trabajar en equipo de
+													manera efectiva, de hecho
+													trabajo en un equipo de 2
+													hace casi 15 años, y espero
+													que sean muchos más. En los
+													talleres y cursos realizados
+													pude realizar tareas de
+													manera colectiva,
+													funcionando como
+													intermediario ante los
+													conflictos, la mediación es
+													uno de mis fuertes.
+												</p>
+											</div>
+										</div>
+									</div>
+									<!-- End testimonial item -->
+									<div class="swiper-slide">
+										<div class="testimonial-box">
+											<div class="author-test">
+												<img
+													src="assets/img/yo2.jpg"
+													alt=""
+													class="rounded-circle b-shadow-a"
+												/>
+											</div>
+											<div class="content-test">
+												<br />
+												<p class="description lead">
+													Soy alguien que trata de
+													buscar soluciones,
+													definitivas en la medida de
+													los posible. Trato de lograr
+													los objetivos planteados y
+													facilitar los trabajos
+													futuros. Intento estar un
+													paso adelante en el
+													desarrollo de cualquier
+													labor, mi objetivo es lograr
+													que las planificaciones sean
+													también mi hoja de ruta y no
+													meras recomendaciones.
+												</p>
+											</div>
+										</div>
+									</div>
+									<!-- End testimonial item -->
+								</div>
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Yo Section -->
+			<!-- ======= Habilidades Section ======= -->
+			<section id="habilidades" class="services-mf pt-5 route">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="title-box text-center">
+								<h3 class="title-a">Habilidades</h3>
+								<p class="subtitle-a">
+									Estas son mis capacidades
+								</p>
+								<div class="line-mf"></div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="service-box">
+								<div class="service-ico">
+									<span class="ico-circle"
+										><i class="bi bi-rulers"></i
+									></span>
+								</div>
+								<div class="service-content">
+									<h2 class="s-title">Diseño Web</h2>
+									<p class="s-description text-center">
+										Puedo trabajar en base a diseños
+										establecidos previamente y desarrollar
+										nuevos personalizados.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="service-box">
+								<div class="service-ico">
+									<span class="ico-circle"
+										><i class="bi bi-code-slash"></i
+									></span>
+								</div>
+								<div class="service-content">
+									<h2 class="s-title">Desarrollo Web</h2>
+									<p class="s-description text-center">
+										Como desarrollador Full Stack puedo
+										pensar un proyecto de manera integral,
+										desde Front hasta la DDBB.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="service-box">
+								<div class="service-ico">
+									<span class="ico-circle"
+										><i class="bi bi-phone"></i
+									></span>
+								</div>
+								<div class="service-content">
+									<h2 class="s-title">Diseño responsivo</h2>
+									<p class="s-description text-center">
+										<em>Mobile first</em> no es solo una
+										linda frase, es una necesidad clara de
+										adaptar el producto a los usuarios.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Habilidades Section -->
+			<!-- ======= Proyectos Section ======= -->
+			<section id="proyectos" class="portfolio-mf sect-pt4 route">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="title-box text-center">
+								<h3 class="title-a">Proyectos</h3>
+								<p class="subtitle-a">
+									Desarrollados hasta ahora o en proceso.
+								</p>
+								<div class="line-mf"></div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="work-box">
+								<a
+									href="assets/img/La_chirusa_logo.png"
+									data-gallery="portfolioGallery"
+									class="portfolio-lightbox"
+								>
+									<div class="work-img">
+										<img
+											src="assets/img/La_chirusa_logo.png"
+											alt=""
+											class="img-fluid"
+										/>
+									</div>
+								</a>
+								<div class="work-content">
+									<div class="row">
+										<div class="col">
+											<h2 class="w-title">
+												La Chirusa Web
+											</h2>
+											<p class="card-text">
+												Catalogo en linea de productos
+												artesanales, futuro deploy en
+												Firebase utilizando Angular y
+												FireStorage.
+											</p>
+											<div class="w-more">
+												<span class="w-ctegory"
+													>Desarrollo Web</span
+												>
+												/
+												<span class="w-date"
+													>(en construcción)</span
+												>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="work-box">
+								<a
+									href="assets/img/AYPIcon.jpg"
+									data-gallery="portfolioGallery"
+									class="portfolio-lightbox"
+								>
+									<div class="work-img">
+										<img
+											src="assets/img/AYPIcon.jpg"
+											alt=""
+											class="img-fluid"
+										/>
+									</div>
+								</a>
+								<div class="work-content">
+									<div class="row">
+										<div class="col">
+											<h2 class="w-title">
+												Asado y Pileta
+											</h2>
+											<p class="card-text">
+												Proyecto final del curso
+												FullStack en Egg desarrollado en
+												Java utilizando el framework de
+												Spring. Implementando seguridad
+												con Spring Security, conexión a
+												DDBB (MySQL) mediante Spring
+												Data Jpa y Thymeleaf como motor
+												de plantillas para el FrontEnd.
+												Muy buen equipo, mucho
+												aprendizaje!
+												<br /><a
+													href="https://github.com/CrakenZieg/ProyectoFinalEgg"
+													>Repositorio en github</a
+												>
+											</p>
+											<div class="w-more">
+												<span class="w-ctegory"
+													>Desarrollo Educativo</span
+												>
+												/
+												<span class="w-date"
+													>17 de Noviembre 2023</span
+												>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Proyectos Section -->
+			<!-- ======= Certificados Section ======= -->
+			<section id="certificados" class="blog-mf sect-pt4 route">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="title-box text-center">
+								<h3 class="title-a">Certificados</h3>
+								<p class="subtitle-a">
+									Estas son algunas de mis experiencias
+									resumidas
+								</p>
+								<div class="line-mf"></div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card card-blog">
+								<div class="card-img">
+									<a
+										href="https://www.udemy.com/certificate/UC-7dd257a2-02ec-41b8-b5a6-68b2366d5215/"
+									>
+										<img
+											src="assets/img/JavaUdemy.png"
+											alt="Java"
+											class="img-fluid"
+										/>
+									</a>
+								</div>
+								<div class="card-body">
+									<div class="card-category-box">
+										<div class="card-category">
+											<h6 class="category">Java</h6>
+										</div>
+									</div>
+									<h3 class="card-title">
+										<a
+											href="https://www.udemy.com/course/universidad-java-especialista-en-java-desde-cero-a-master/"
+										>
+											Universidad Java
+										</a>
+									</h3>
+									<p class="card-description">
+										Fundamentos de Java, Programación
+										Orientada a Objetos, Patrones de Diseño
+										y Mejores prácticas Java, JDBC, Servlets
+										y JSP's, Java Empresarial (Java EE),
+										incluyendo EJB's, JPA, Web Services,
+										Seguridad, todo esto utilizando Maven,
+										Log4j2, Angular con Java EE para crear
+										aplicaciones Full Stack Java Developer
+									</p>
+								</div>
+								<div class="card-footer">
+									<div class="post-author">
+										<a href="https://www.udemy.com/">
+											<img
+												src="assets/img/udemy.png"
+												alt=""
+												class="avatar rounded-circle"
+											/>
+											<span class="author">Udemy</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card card-blog">
+								<div class="card-img">
+									<a
+										href="https://www.udemy.com/certificate/UC-796f5620-4f2e-45d9-ba27-813897a7edbd/"
+									>
+										<img
+											src="assets/img/SpringUdemy.png"
+											alt="Spring"
+											class="img-fluid"
+										/>
+									</a>
+								</div>
+								<div class="card-body">
+									<div class="card-category-box">
+										<div class="card-category">
+											<h6 class="category">Spring</h6>
+										</div>
+									</div>
+									<h3 class="card-title">
+										<a
+											href="https://www.udemy.com/user/globalmentoring/"
+											>Universidad Spring</a
+										>
+									</h3>
+									<p class="card-description">
+										El framework más popular de Java, Spring
+										Framework con Spring Boot. Fundamentos
+										de Java, Programación Orientada a
+										Objetos, JDBC y JPA, Servlets y JSP's, y
+										Hibernate incluyendo todo esto
+										utilizando Maven, Log4j2, patrones de
+										diseño, mejores prácticas, arquitecturas
+										empresariales multicapa y mucho mucho
+										más.
+									</p>
+								</div>
+								<div class="card-footer">
+									<div class="post-author">
+										<a href="https://www.udemy.com/">
+											<img
+												src="assets/img/udemy.png"
+												alt=""
+												class="avatar rounded-circle"
+											/>
+											<span class="author">Udemy</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card card-blog">
+								<div class="card-img">
+									<a
+										href="https://www.udemy.com/certificate/UC-a753de86-2ec8-45c1-b747-d54cc711d1a7/"
+									>
+										<img
+											src="assets/img/AngularUdemy.png"
+											alt="Angular"
+											class="img-fluid"
+										/>
+									</a>
+								</div>
+								<div class="card-body">
+									<div class="card-category-box">
+										<div class="card-category">
+											<h6 class="category">Angular</h6>
+										</div>
+									</div>
+									<h3 class="card-title">
+										<a
+											href="https://www.udemy.com/course/angular-de-cero-a-experto-angular-2-framework-javascript-html-css/"
+										>
+											Universidad Angular
+										</a>
+									</h3>
+									<p class="card-description">
+										Este curso lo cubre Componentes,
+										Directivas, Servicios, Formularios, HTTP
+										Access, Autenticación, Optimización de
+										una aplicación Angular con módulos y
+										mucho más, todo con ejemplos del mundo
+										real. Incluye bono de HTML, CSS y
+										JavaScript.
+									</p>
+								</div>
+								<div class="card-footer">
+									<div class="post-author">
+										<a href="https://www.udemy.com/">
+											<img
+												src="assets/img/udemy.png"
+												alt=""
+												class="avatar rounded-circle"
+											/>
+											<span class="author">Udemy</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card card-blog">
+								<div class="card-img">
+									<a
+										href="https://egg-csv-bulk-certificates-prod.s3.amazonaws.com/certificates/63f93d33b5ea6207cea13737-1701204544597.pdf"
+									>
+										<img
+											src="assets/img/FullStackEggAP.png"
+											alt="FullStack"
+											class="img-fluid"
+										/>
+									</a>
+								</div>
+								<div class="card-body">
+									<div class="card-category-box">
+										<div class="card-category">
+											<h6 class="category">FullStack</h6>
+										</div>
+									</div>
+									<h3 class="card-title">
+										<a href="https://egg.live/">
+											Desarrollador Web FullStack
+										</a>
+									</h3>
+									<p class="card-description">
+										Iniciando con lógica básica hasta
+										programación Orientada a Objetos. Java,
+										JDBC y JPA, usando como base de datos
+										MySQL. Luego HTML, CSS y Javascript para
+										luego aprender una de las librerías más
+										populares: React. Casi un año entero de
+										desarrollo y aprendizaje en equipo, una
+										metodología que no conocía pero fue
+										realmente productiva.
+									</p>
+								</div>
+								<div class="card-footer">
+									<div class="post-author">
+										<a href="https://egg.live/">
+											<img
+												src="assets/img/egg.svg"
+												alt=""
+												class="avatar rounded-circle"
+											/>
+											<span class="author">Egg</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card card-blog">
+								<div class="card-img">
+									<a
+										href="https://egg-csv-bulk-certificates-prod.s3.amazonaws.com/certificates/6504e493d310a8917eb81502-1701204501514.pdf"
+									>
+										<img
+											src="assets/img/SpringProyectoEgg.png"
+											alt="SpringProyecto"
+											class="img-fluid"
+										/>
+									</a>
+								</div>
+								<div class="card-body">
+									<div class="card-category-box">
+										<div class="card-category">
+											<h6 class="category">
+												Spring+Proyecto Final
+											</h6>
+										</div>
+									</div>
+									<h3 class="card-title">
+										<a href="https://egg.live">
+											Proyecto Integrador
+										</a>
+									</h3>
+									<p class="card-description">
+										Como cierre del curso FullStack,
+										trabajando con un equipo de 9 personas y
+										desempeñando el rol de TechLead,
+										realizamos este proyecto. Utilizamos
+										Spring y Thymeleaf para realizar una
+										simulación en la que volcar lo aprendido
+										durante el año. Fue un experiencia
+										increíble!
+									</p>
+								</div>
+								<div class="card-footer">
+									<div class="post-author">
+										<a href="https://egg.live">
+											<img
+												src="assets/img/egg.svg"
+												alt=""
+												class="avatar rounded-circle"
+											/>
+											<span class="author">Egg</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Certificados Section -->
+
+			<!-- ======= Contacto Section ======= -->
+			<section
+				id="contacto"
+				class="paralax-mf footer-paralax bg-image sect-mt4 route"
+				style="background-image: url(assets/img/overlay-bg.jpg)"
+			>
+				<div class="overlay-mf"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="contact-mf">
+								<div id="contact" class="box-shadow-full">
+									<div class="row">
+										<div class="col-md-6">
+											<div class="title-box-2">
+												<h5 class="title-left">
+													Contactame!
+												</h5>
+											</div>
+											<div>
+												<form
+													action="https://formsubmit.co/a6d363e7122689a663109d799c24222c"
+													method="POST"
+													class="php-email-form"
+												>
+                                                <input type="hidden" name="_captcha" value="false">
+                                                <input type="text" name="_honey" style="display:none">
+                                                    <div class="row">
+														<div
+															class="col-md-12 mb-3"
+														>
+															<div
+																class="form-group"
+															>
+																<input
+																	type="text"
+																	name="name"
+																	class="form-control"
+																	id="name"
+																	placeholder="Nombre"
+																	required
+																/>
+															</div>
+														</div>
+														<div
+															class="col-md-12 mb-3"
+														>
+															<div
+																class="form-group"
+															>
+																<input
+																	type="email"
+																	class="form-control"
+																	name="email"
+																	id="email"
+																	placeholder="Email"
+																	required
+																/>
+															</div>
+														</div>
+														<div
+															class="col-md-12 mb-3"
+														>
+															<div
+																class="form-group"
+															>
+																<input
+																	type="text"
+																	class="form-control"
+																	name="subject"
+																	id="subject"
+																	placeholder="Motivo"
+																	required
+																/>
+															</div>
+														</div>
+														<div class="col-md-12">
+															<div
+																class="form-group"
+															>
+																<textarea
+																	class="form-control"
+																	name="message"
+																	rows="5"
+																	placeholder="Mensaje"
+																	required
+																></textarea>
+															</div>
+														</div>														
+														<div
+															class="col-md-12 text-center"
+														>
+															<button
+																type="submit"
+																class="button button-a button-big button-rouded"
+															>
+																Enviar
+															</button>
+														</div>
+													</div>
+												</form>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div
+												class="title-box-2 pt-4 pt-md-0"
+											>
+												<h5 class="title-left">
+													Redes
+												</h5>
+											</div>
+											<div class="more-info">
+												<p class="lead">
+													Aunque no soy muy asiduo a las redes, estoy en ellas!
+                                                    Utilizo principalmente LinkedIn y Github. No te rías
+                                                    de mi usuario, en ese momento pensé que se podía cambiar 
+                                                    (aunque aclara que no se puede &#128517;)
+												</p>
+												<ul class="list-ico">
+													<li>
+                                                        <a href="https://github.com/CrakenZieg"
+                                                        target="_blank">
+                                                            <span
+                                                                class="bi bi-github"
+                                                            ></span>                                                        
+                                                            https://github.com/CrakenZieg
+                                                        </a>
+													</li>
+													<li>
+                                                        <a href="https://www.linkedin.com/in/franciscoziegler/"
+                                                        target="_blank">
+                                                            <span
+                                                                class="bi bi-linkedin"
+                                                            ></span>
+                                                            https://www.linkedin.com/in/franciscoziegler/
+                                                        </a>
+													</li>
+												</ul>
+											</div>											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End Contacto Section -->
 		</main>
+		<!-- End #main -->
+		<!-- ======= Footer ======= -->
 		<footer>
-            <div class="container-fluid">
-                <div class="row d-flex flex-wrap justify-content-center">
-                    <div class="footer-item">
-                        <a href="#">Preguntas frecuentes</a>
-                    </div>
-                    <div class="footer-item">
-                        <a href="#">Contáctanos</a>
-                    </div>
-                    <div class="footer-item">
-                        <a href="#">Prensa</a>
-                    </div>
-                    <div class="footer-item">
-                        <a href="#">Conferencias</a>
-                    </div>
-                    <div class="footer-item">
-                        <a href="#">Términos y condiciones</a>
-                    </div>
-                    <div class="footer-item">
-                        <a href="#">Privacidad</a>
-                    </div>
-                    <div class="footer-item">
-                        <a href="#">Estudiantes</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-			crossorigin="anonymous"
-		></script>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="copyright-box">
+							<p class="copyright">
+								&copy; Copyright <strong>DevFolio</strong>. All
+								Rights Reserved
+							</p>
+							<div class="credits">
+								<!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+            -->
+								Designed by
+								<a href="https://bootstrapmade.com/"
+									>BootstrapMade</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End  Footer -->
+
+		<div id="preloader"></div>
+		<a
+			href="#"
+			class="back-to-top d-flex align-items-center justify-content-center"
+			><i class="bi bi-arrow-up-short"></i
+		></a>
+		<!-- Vendor JS Files -->
+		<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+		<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+		<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+		<script src="assets/vendor/typed.js/typed.umd.js"></script>
+		<!-- Template Main JS File -->
+		<script src="assets/js/main.js"></script>
 	</body>
 </html>
